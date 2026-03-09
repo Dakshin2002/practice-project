@@ -17,3 +17,9 @@ again check status:
 git status
 git add index.html
 git commit -m "Updated index file with paragraph"
+Task 6 – Create a New Branch
+git branch feature-ui
+Switch to the branch:
+git checkout feature-ui
+(OR)
+git switch feature-ui
