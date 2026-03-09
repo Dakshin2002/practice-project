@@ -17,25 +17,6 @@ again check status:
 git status
 git add index.html
 git commit -m "Updated index file with paragraph"
-<<<<<<< HEAD
-
-"NEXT PROCESS IN GITHUB"
-ask 9 – Push to GitHub
-
-Create repo in GitHub.
-
-Example repo name:
-
-git-practice-project
-
-Then connect:
-
-git remote add origin https://github.com/username/git-practice-project.git
-
-Push:
-
-git push -u origin main
-=======
 Task 6 – Create a New Branch
 git branch feature-ui
 Switch to the branch:
@@ -46,8 +27,8 @@ Task 7 – Add New Feature
 
 Edit style.css
 
-body{
-  background-color: lightgray;
+p{
+  background-color: yellow;
 }
 
 Then commit:
@@ -63,4 +44,3 @@ git checkout main
 Merge feature branch:
 
 git merge feature-ui
->>>>>>> feature-ui
