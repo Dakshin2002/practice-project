@@ -23,3 +23,24 @@ Switch to the branch:
 git checkout feature-ui
 (OR)
 git switch feature-ui
+Task 7 – Add New Feature
+
+Edit style.css
+
+body{
+  background-color: lightgray;
+}
+
+Then commit:
+
+git add .
+git commit -m "Added background color"
+Task 8 – Merge Branch
+
+Switch back to main:
+
+git checkout main
+
+Merge feature branch:
+
+git merge feature-ui
