@@ -6,3 +6,14 @@ git add .
 Prepare all files to be saved in Git.
 OR
 git add file_name
+Check status:
+git status
+Task 4 – First Commit
+git commit -m "Initial project files added"
+Save the first version of your project.
+Task 5 – Modify a File
+Edit index.html
+again check status:
+git status
+git add index.html
+git commit -m "Updated index file with paragraph"
