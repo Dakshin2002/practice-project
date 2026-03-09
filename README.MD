@@ -17,3 +17,20 @@ again check status:
 git status
 git add index.html
 git commit -m "Updated index file with paragraph"
+
+"NEXT PROCESS IN GITHUB"
+ask 9 – Push to GitHub
+
+Create repo in GitHub.
+
+Example repo name:
+
+git-practice-project
+
+Then connect:
+
+git remote add origin https://github.com/username/git-practice-project.git
+
+Push:
+
+git push -u origin main
